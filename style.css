@@ -1,1 +1,96 @@
+/* style.css */
 
+body {
+    background-color: #555555;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .movie {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-title {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .movie-votes {
+    padding: 10px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+    .logo-text {
+        font-size: 36px;
+        font-family: 'Impact', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        /* margin-right: 10px; */
+      }
+  
+  
+  .logo-icon {
+    width: 64px;
+    height: 64px;
+  }
+  
