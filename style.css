@@ -1,96 +1,135 @@
-/* style.css */
-
 body {
-    background-color: #555555;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #ffffff;
-    padding: 20px;
-  }
-  
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    font-size: 24px;
-  }
-  
-  .search-bar {
-    display: flex;
-    align-items: center;
-  }
-  
-  .search-bar input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 10px;
-  }
-  
-  .search-bar button {
-    padding: 10px 20px;
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .movie {
-    width: calc(25% - 20px);
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .movie img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .movie-title {
-    padding: 10px;
-    font-weight: bold;
-  }
-  
-  .movie-votes {
-    padding: 10px;
-  }
+  background-color: #221f1f;
+  margin: 0;
+  padding: 0;
+}
 
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-    .logo-text {
-        font-size: 36px;
-        font-family: 'Impact', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        /* margin-right: 10px; */
-      }
-  
-  
-  .logo-icon {
-    width: 64px;
-    height: 64px;
-  }
-  
+header {
+  background-color: #111;
+  padding: 20px;
+}
+
+h1{
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  color: #e50914;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-card {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  background-color: #111;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Added alignment */
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto; /* Added center alignment */
+}
+
+.movie-title {
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  margin: 0; /* Remove the "auto" value */
+}
+
+.movie-votes {
+  padding: 10px;
+  color: #e50914;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  margin: 0 auto; /* Added center alignment */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 36px;
+  font-family: 'Impact', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #e50914;
+}
+
+.logo-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.load-more-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#load-more-movies-btn {
+  width: 100px;
+  height: 50px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

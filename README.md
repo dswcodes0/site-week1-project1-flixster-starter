@@ -1,10 +1,10 @@
-📝 **NOTE** Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
+
 
 ## Week 1 Assignment: Flixster
 
 Submitted by: Darren Washington
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **10** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -12,7 +12,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### Core Features
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view
+- [x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
 - [ ] For each movie displayed, user can see the following details:
@@ -50,15 +50,15 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+yes lab 3 helped the most because i used javascript in that one and javascript was the biggest and hardest part of this project. lab 1 just gave me some knowledge on how to setup the html and css
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+i would have did the stretch features and learned to make it more responsive. i currently only have the very backbone features of the site working right now.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+in the begninning nothing was going as planned, i had no hope that i would be able to come as far as i did and i definitely would not have come this far if not for Sydney, Anna and my codepath instructors.
 
 ### Open-source libraries used
 
@@ -67,3 +67,4 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+ anna  gao sydney wang thomas wang

@@ -15,15 +15,21 @@
         <img class="logo-icon" src="popcorn.png" alt="Popcorn">
       </h1>
       <div class="search-bar">
-        <input type="text" placeholder="Search movies...">
-        <button type="button">Search</button>
+        <form id="searchForm">
+          <input id="search-input" type="text" placeholder="Search movies...">
+          <button id="searchButton" type="submit">Search</button>
+          <button id="clearSearchButton" type="button">Clear Search</button>
+        </form>
       </div>
     </div>
   </header>
 
   <main>
-    <div id="movie-list" class="container">
+    <div id="movies-grid" class="container">
       <!-- Placeholder for movie elements -->
+    </div>
+    <div class="load-more-container">
+      <button id="load-more-movies-btn" type="button">Load More</button>
     </div>
   </main>
 </body>
